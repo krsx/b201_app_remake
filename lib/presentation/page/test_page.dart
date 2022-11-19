@@ -1,4 +1,3 @@
-import 'package:b201_app/presentation/widgets/payment_status_widget.dart';
 import 'package:flutter/material.dart';
 
 class TestPage extends StatefulWidget {
@@ -14,12 +13,7 @@ class _TestPageState extends State<TestPage> {
     return SafeArea(
       child: Scaffold(
         body: Column(
-          children: const [
-            PaymentStatusWidget(
-              isPaid: true,
-              date: '28 September',
-            ),
-          ],
+          children: const [],
         ),
       ),
     );
